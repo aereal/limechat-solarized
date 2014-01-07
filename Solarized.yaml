@@ -5,12 +5,12 @@ log-view:
   nickname-format: '%n: '
   scroller-highlight-color: '#e28964'
 input-text:
-  font-family: 'Menlo'
+  font-family: 'Monaco'
   font-size: 13.0
   background-color: '#eee8d5' # base2
   color: '#657b83'            # base00
 member-list:
-  font-family: 'Menlo'
+  font-family: 'Monaco'
   font-size: 12.0
   color: '#657b83' # base00 
   background-color: '#eee8d5' # base2
@@ -24,7 +24,7 @@ member-list:
       top-color: '#fdf6e3'         # base3
       bottom-color: '#fdf6e3'      # base3
 server-tree:
-  font-family: 'Menlo'
+  font-family: 'Monaco'
   font-size: 12.0
   background-color: '#eee8d5' # base2
   highlight:
@@ -32,7 +32,7 @@ server-tree:
   newtalk:
     color: '#2aa198' # cyan
   unread:
-    color: '#859900' # green
+    color: '#b58900' # yellow
   normal:
     active:
       color: '#657b83' # base00
@@ -40,7 +40,7 @@ server-tree:
       color: '#93a1a1' # base1
   selected:
     active:
-      color: '#6c71c4' # violet
+      color: '#859900' # green
     inactive:
       color: '#93a1a1' # base3
     background:

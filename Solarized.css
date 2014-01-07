@@ -1,5 +1,5 @@
 html {
-  font-family: 'Menlo';
+  font-family: 'Monaco';
   font-size: 14px;
   background-color: #fdf6e3; /* base3 */
   color: #657b83;            /* base00 */
@@ -15,7 +15,9 @@ body {}
   color: #dc322f;   /* red */
 }
 
-.line {}
+.line {
+  line-height: 1.6;
+}
 .line[alternate=even] {}
 .line[alternate=odd] {} 
 .line[highlight=true] {}
@@ -27,7 +29,7 @@ body {}
 .sender[type=myself] { color: #93a1a1; } /* base1 */
 
 .message[type=privmsg] {}
-.message[type=notice] { color: #859900; }   /* green */
+.message[type=notice] { color: #93a1a1; }   /* green */
 .message[type=action] { color: #b58900;}    /* yellow */
 
 .message[type=system], .message[type=join], .message[type=part], .message[type=kick],
