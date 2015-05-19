@@ -2,7 +2,7 @@
 # You cannot use color names.
 
 log-view:
-  nickname-format: '%n: '
+  nickname-format: '<%12n> '
   scroller-highlight-color: '#e28964'
 input-text:
   font-family: 'Monaco'
